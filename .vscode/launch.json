@@ -1,0 +1,21 @@
+{
+    "type": "chrome",
+    "request": "launch",
+    "name": "Launch Chrome",
+    "url": "http://localhost:8080",
+    "webRoot": "${workspaceFolder}",
+    "sourceMaps": true,
+    "skipFiles": [
+      "chrome-error://**"  // Skip Chrome error-related files
+    ],
+    "configurations": [
+    {
+        "name": "Launch Chrome",
+        "request": "launch",
+        "type": "chrome",
+        "url": "http://localhost:8080",
+        "webRoot": "${workspaceFolder}"
+    }
+    ]
+  }
+  
